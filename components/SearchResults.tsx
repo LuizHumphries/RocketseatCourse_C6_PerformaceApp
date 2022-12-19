@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { ProductItem } from "./ProductItem";
 
 type SearchResultsProps = {
