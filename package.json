@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server -d 750 -w -p 3333 ./server.js"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -17,5 +18,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.1"
   }
 }
